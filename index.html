@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Semana 3 - Tarea 3</title>
+	</head>
+	<body>
+		<header>
+			<div class="section-logo">
+				<img
+					class="logo-header"
+					src="./img/footer-logo.webp"
+					alt="Beca Jovenes Bicentenario"
+				/>
+			</div>
+		</header>
+		<main>
+			<div class="form">
+				<h1>Formulario</h1>
+				<form id="form-result" class="section-input">
+					<div class="item-input">
+						<label for="name">Nombres:</label>
+						<input type="text" id="name" placeholder="Nombres:" />
+					</div>
+
+					<div class="item-input input-responsive">
+						<div>
+							<label for="years">Edad:</label>
+							<input
+								type="number"
+								id="years"
+								placeholder="Edad:"
+							/>
+						</div>
+						<div>
+							<label for="degree">Grado:</label>
+							<input
+								type="text"
+								id="degree"
+								placeholder="Grado:"
+							/>
+						</div>
+					</div>
+
+					<span class="sub-title">Notas de tareas</span>
+					<div class="item-input input-responsive">
+						<div>
+							<label for="note-task1">Nota 1:</label>
+							<input
+								type="number"
+								id="note-task1"
+								placeholder="Nota 1:"
+							/>
+						</div>
+						<div>
+							<label for="note-task2">Nota 2:</label>
+							<input
+								type="number"
+								id="note-task2"
+								placeholder="Nota 2:"
+							/>
+						</div>
+					</div>
+
+					<span class="sub-title">Notas de parciales</span>
+					<div class="item-input input-responsive">
+						<div>
+							<label for="note-partials1">Nota 1:</label>
+							<input
+								type="number"
+								id="note-partials1"
+								placeholder="Nota 1:"
+							/>
+						</div>
+						<div>
+							<label for="note-partials2">Nota 2:</label>
+							<input
+								type="number"
+								id="note-partials2"
+								placeholder="Nota 2:"
+							/>
+						</div>
+					</div>
+
+					<div class="item-button">
+						<button>Calificar</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="section-result">
+				<h2>Tu resultados es...</h2>
+				<div class="item-personal-information">
+					<h3>Tú Nombres es:</h3>
+					<h3>Tú Edad es:</h3>
+					<h3>Tú Grado es:</h3>
+				</div>
+				<div class="item-result-notes">
+					<p>HAZ APROBADO... :)</p>
+					<p>con 20</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="img-footer">
+				<img src="./img/footer-logo.webp" alt="Beca Bicentenario " />
+			</div>
+		</footer>
+
+		<script src="./js/app.js"></script>
+	</body>
+</html>

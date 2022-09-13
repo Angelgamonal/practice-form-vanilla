@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Section header */
+
+header {
+	width: 100%;
+	height: auto;
+	background: #d92332;
+}
+
+.logo-header {
+	width: 100%;
+	max-width: 15em;
+	padding: 1em 1.5em;
+	border-radius: 3em;
+}
+
+/* Section main */
+
+main {
+	padding: 2em 1.5em;
+	background: #fff;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
+}
+.form {
+	background: #d92332;
+	width: 100%;
+	max-width: 30em;
+	margin: auto;
+	padding: 1.5em 0.5em;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	padding: 0 0 0.5em 0;
+	font-weight: 900;
+	color: #fff;
+}
+
+.section-input {
+	padding: 0.5em 1em;
+}
+
+.item-input {
+	padding: 0.5em;
+	margin: auto;
+}
+
+.item-input input {
+	color: #404040;
+	border: none;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	width: 100%;
+	max-width: 30em;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.input-responsive {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.4em;
+}
+
+.sub-title {
+	font-size: 1.1em;
+	font-weight: 900;
+	padding: 0.3em 0.5em;
+}
+
+.item-button {
+	margin: 1em 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+.item-button button {
+	margin: auto;
+	padding: 0.5em 1.5em;
+	color: #d92332;
+	background: #fff;
+	border: none;
+	border-radius: 1em;
+	font-size: 1.3em;
+	font-weight: 900;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.item-button button:hover {
+	box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.452);
+	background: #404040;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.section-result {
+	margin: auto;
+	background: #404040;
+	padding: 1em 1.5em;
+	max-width: 30em;
+	width: 100%;
+	height: 100%;
+}
+
+.section-result h2 {
+	font-size: 1.5em;
+	text-align: start;
+	padding: 0 0 0.5em 0;
+	font-weight: 900;
+	color: #fff;
+}
+.item-personal-information h3 {
+	font-size: 1.2em;
+	padding: 0.3em 0;
+}
+
+.item-result-notes p {
+	margin: auto;
+	padding: 1em 1em 0 1em;
+	font-size: 2.5em;
+	font-weight: 900;
+}
+
+/* section footer */
+
+footer {
+	background: #404040;
+	padding: 1em;
+}
+
+.img-footer img {
+	max-width: 15em;
+}
+
+@media (max-width: 900px) {
+	main {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 500px) {
+	main {
+		padding: 1em;
+	}
+	.input-responsive {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 0.4em;
+	}
+	.item-result-notes p {
+		font-size: 1.5em;
+	}
+}
