@@ -72,6 +72,7 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 0.4em;
+	transition: 0.5s;
 }
 
 .sub-title {
@@ -112,17 +113,18 @@ h1 {
 	max-width: 30em;
 	width: 100%;
 	height: 100%;
+	box-shadow: 10px 5px 5px rgb(0 0 0 / 45%);
 }
 
 .section-result h2 {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	text-align: start;
 	padding: 0 0 0.5em 0;
 	font-weight: 900;
 	color: #fff;
 }
 .item-personal-information h3 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding: 0.3em 0;
 }
 
@@ -140,8 +142,22 @@ footer {
 	padding: 1em;
 }
 
+.img-footer {
+	display: flex;
+
+	justify-content: center;
+}
+
 .img-footer img {
-	max-width: 15em;
+	max-width: 13em;
+	padding: 0 0 1em 0;
+	border-radius: 1em;
+}
+.content-button h3 {
+	text-align: center;
+}
+.content-button span {
+	color: #d92332;
 }
 
 @media (max-width: 900px) {
@@ -159,6 +175,7 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 0.4em;
+		transition: 0.5s;
 	}
 	.item-result-notes p {
 		font-size: 1.5em;
